@@ -202,7 +202,7 @@ public class Main {
 
                         }else if (universaldl.contains(".jar")){
 
-                            howtoruntext="\n\n<br>### How to run the .jar file?\nTo launch the .jar file, you need to open a terminal and type:\n" +
+                            howtoruntext="\n\n<br>\n\n### How to run the .jar file?\nTo launch the .jar file, you need to open a terminal and type:\n" +
                                     "```\n" +
                                     "$ java -jar [file].jar\n" +
                                     "```\n"+
@@ -308,7 +308,7 @@ public class Main {
 
                 f_writer.write("\n<br>\n\n## How to use "+title+"?");
 
-                f_writer.write("\n\n"+howtousetext+"\n\n");
+                f_writer.write("\n\n"+howtousetext+"\n\n\n");
 
                 f_writer.write("\n\n## Troubleshoot\n\n");
 
