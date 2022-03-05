@@ -191,7 +191,7 @@ public class Main {
 
                         if (universaldl.contains(".py")){
 
-                            howtoruntext="\n\n<br>### How to run the .py file?\nTo launch the .py file, you need to open a terminal and type:\n" +
+                            howtoruntext="\n\n<br>\n\n### How to run the .py file?\nTo launch the .py file, you need to open a terminal and type:\n" +
                                     "```\n" +
                                     "$ python [file].py\n" +
                                     "```\n"+
@@ -212,7 +212,7 @@ public class Main {
 
                         }else{
 
-                            universaldl="\n[![download badge](https://img.shields.io/badge/Download%20\"+title.replace(' ', '%20')+\"-now-181717?style=for-the-badge&color=black)](\"+sc.nextLine()+\")<br>";
+                            universaldl="\n[![download badge](https://img.shields.io/badge/Download%20"+title.replace(" ", "%20")+"-now-181717?style=for-the-badge&color=black)]("+sc.nextLine()+")<br>";
 
                         }
                         break releasechoice;
@@ -268,7 +268,7 @@ public class Main {
 
 
                 }else if (reponse.equals("no")){
-                    bugs.append("## There is no current discovered/reported errors or bugs.");
+                    bugs.append("### There is no current discovered/reported errors or bugs.");
                     break;
 
                 }else{
@@ -298,7 +298,7 @@ public class Main {
 
                 f_writer.write(linuxdl+windowsdl+macdl+universaldl);
 
-                f_writer.write("\n<br>\n## About the "+typeofprogram+"");
+                f_writer.write("\n<br>\n\n## About the "+typeofprogram+"");
 
                 f_writer.write(abouttext+"\n");
 
@@ -308,9 +308,9 @@ public class Main {
 
                 f_writer.write("\n<br>\n\n## How to use "+title+"?");
 
-                f_writer.write("\n\n"+howtousetext+"\n");
+                f_writer.write("\n\n"+howtousetext+"\n\n");
 
-                f_writer.write("## Troubleshoot");
+                f_writer.write("\n\n## Troubleshoot\n\n");
 
                 f_writer.write(String.valueOf(bugs));
 
