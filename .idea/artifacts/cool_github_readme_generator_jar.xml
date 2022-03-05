@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cool_github_readme_generator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cool_github_readme_generator_jar</output-path>
+    <root id="archive" name="cool_github_readme_generator.jar">
+      <element id="module-output" name="cool_github_readme_generator" />
+    </root>
+  </artifact>
+</component>
