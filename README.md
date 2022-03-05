@@ -8,7 +8,7 @@
 ### 3. [How to run the Tool?](https://github.com/DR34M-M4K3R/Cool_Github_Readme_Generator#run-the-Tool)<br/>
 ### 4. [How to use Cool Github Readme Generator?](https://github.com/DR34M-M4K3R/Cool_Github_Readme_Generator#how-to-use-Cool-Github-Readme-Generator)<br/>
 ### 5. [Troubleshoot](https://github.com/DR34M-M4K3R/Cool_Github_Readme_Generator#Troubleshoot)<br/>
-## Downloads<br>
+### Downloads<br>
 
 [![java download badge](https://img.shields.io/badge/Download%20.jar-181717?style=for-the-badge&color=red&logo=java)](https://github.com/DR34M-M4K3R/Anti-AFK-kick-for-all-games/raw/main/Anti-AFK.jar)<br>
 
@@ -21,7 +21,9 @@
 
 ## How to run the Tool?
 
-<br>### How to run the .jar file?
+<br>
+
+### How to run the .jar file?
 To launch the .jar file, you need to open a terminal and type:
 ```
 $ java -jar [file].jar
