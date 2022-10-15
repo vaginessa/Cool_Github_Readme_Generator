@@ -10,7 +10,7 @@
 ### 5. [Troubleshoot](https://github.com/DR34M-M4K3R/Cool_Github_Readme_Generator#Troubleshoot)<br/>
 ### Downloads<br>
 
-[![java download badge](https://img.shields.io/badge/Download%20.jar-181717?style=for-the-badge&color=red&logo=java)](https://github.com/DR34M-M4K3R/Anti-AFK-kick-for-all-games/raw/main/Anti-AFK.jar)<br>
+[![java download badge](https://img.shields.io/badge/Download%20.jar-181717?style=for-the-badge&color=red&logo=java)](https://github.com/DR34M-M4K3R/Cool_Github_Readme_Generator/releases/download/1.0/cool_github_readme_generator.jar)<br>
 
 <br>
 
